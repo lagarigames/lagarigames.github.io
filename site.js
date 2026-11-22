@@ -65,3 +65,8 @@
   // Yıl
   document.querySelectorAll('[data-year]').forEach(function (el) { el.textContent = new Date().getFullYear(); });
 })();
+
+/* Yapım aşaması ekranı varsa sayfayı kilitle */
+(function () {
+  if (document.querySelector('.uc')) document.documentElement.classList.add('has-uc');
+})();
