@@ -383,3 +383,6 @@ html.has-uc,html.has-uc body{overflow:hidden;height:100%}
 .tbl td{padding:10px 12px;border-top:1px solid #e3eef6;vertical-align:top;line-height:1.5;overflow-wrap:normal}
 .tbl tr:nth-child(even) td{background:#f7fbfe}
 @media (max-width:600px){.toc ol{columns:1}.doc{padding:22px 18px}}
+
+/* yakında etiketi (ilk sürümde kapalı özellikler) */
+.soonTag{display:inline-block;vertical-align:middle;margin-left:6px;padding:2px 9px;border-radius:999px;background:#FFC93C;color:#0B2545;font-size:.62em;font-weight:800;letter-spacing:.01em;line-height:1.5}
